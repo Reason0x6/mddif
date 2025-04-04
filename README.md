@@ -25,13 +25,13 @@ A command-line tool to generate a Markdown-formatted diff between a specified ta
 
 ## Installation / Setup
 
-1.  **Download:** Place the `git_diff_md.py` script in your desired location (e.g., a project's utility folder, or a directory in your system PATH like `~/bin` or `C:\Users\YourUser\Scripts`).
+1.  **Download:** Place the `mddif.py` script in your desired location (e.g., a project's utility folder, or a directory in your system PATH like `~/bin` or `C:\Users\YourUser\Scripts`).
     *   *A sample `diff_config.ini` may be included alongside the script for your convenience.*
 2.  **Make Executable (Linux/macOS):**
     ```bash
-    chmod +x git_diff_md.py
+    chmod +x mddif.py
     ```
-    (Windows users will typically run the script using `python git_diff_md.py ...`)
+    (Windows users will typically run the script using `python mddif.py ...`)
 3.  **Configuration File (Optional):**
     *   The script looks for a configuration file by default in a directory named `mddif` within your user's home directory (`~/mddif/diff_config.ini` on Linux/macOS, `C:\Users\<YourUser>\mddif\diff_config.ini` on Windows).
     *   **If this default file is not found**, the script will print a warning message containing a link to download a sample configuration. You would then need to manually create the `~/mddif` directory (if it doesn't exist) and save the downloaded file as `diff_config.ini` inside it.
@@ -45,7 +45,7 @@ Run the script from *within a Git repository*.
 
 ```bash
 # On Linux/macOS (if executable and in PATH or current dir)
-git_diff_md.py <branch_flag> [options]
+mddif.py <branch_flag> [options]
 
 # On Windows (or if not executable/in PATH)
-python git_diff_md.py <branch_flag> [options]
+python mddif.py <branch_flag> [options]
