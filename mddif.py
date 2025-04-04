@@ -11,7 +11,7 @@ import pathlib # For path manipulation and home directory
 # --- Constants ---
 CONFIG_SECTION = "Markdown"
 # Keep the URL constant for the warning message
-DEFAULT_CONFIG_URL = "https://gist.githubusercontent.com/Reason0x6/7ac0814373f017c3ce4c04f1833e4a04/raw/7c931dbc26e5de0f2fda0a4ee1bfb38c887e6866/mddif_default_config"
+DEFAULT_CONFIG_URL = "https://gist.githubusercontent.com/Reason0x6/7ac0814373f017c3ce4c04f1833e4a04/raw/1dd09da2c038862cf6dc5c16840dda85167d20e3/mddif_default_config"
 
 # --- Determine Default Config Path ---
 HOME_DIR = pathlib.Path.home()
